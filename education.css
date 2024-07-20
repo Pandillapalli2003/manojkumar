@@ -1,0 +1,63 @@
+.education-section {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.education-timeline {
+  position: relative;
+}
+
+.education-block {
+  text-decoration-color:white ;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin-left: 15%;
+}
+
+.education-block img {
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
+  border-radius: 10px 10px 0 0;
+}
+
+.education-block h3, p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 0;
+}
+.education-block p {
+  font-size: 16px;
+  color: #666;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #333;
+  z-index: -1;
+}
+
+.home-button {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none; 
+  border-radius: 10%;
+  cursor: pointer;
+}
+.home-button:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text color on hover */
+
+

@@ -1,0 +1,71 @@
+.about {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  margin: 0;
+}
+
+.container {
+  max-width: 800px; /* Container width */
+  margin: 0 auto; /* Center container */
+}
+
+.profile-picture {
+  border-radius: 10%; /* Rounded profile picture */
+  margin: 20px;
+  width: 150px; /* Profile picture width */
+  height: 150px; /* Profile picture height */
+  object-fit: cover; /* Cover entire area */
+  border: 3px solid #fff; /* White border */
+  filter: drop-shadow(1px 1px 20px yellowgreen);
+}
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff; /* White text color */
+}
+
+.profession {
+  font-style: italic;
+  color: #666; /* Light gray text color */
+}
+
+.interest {
+  font-style: italic;
+  color: #999; /* Dark gray text color */
+}
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  padding-bottom: 10px;
+}
+
+.content ul li {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #1c7d32;
+  justify-content: left;
+}
+.home-button {
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor shape to a pointing hand */
+  text-decoration: none; /* Remove underline */
+}
+
+.home-button:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text color on hover */
+}
